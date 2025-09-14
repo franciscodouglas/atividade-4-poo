@@ -1,10 +1,8 @@
-# Atividade 5
-
+# Atividade 4 - Aplicação de Orientação a Objetos
 
 ## Sumário 
 - [Como Utilizar Esse Projteto](#como-utilizar-esse-projeto-)
 - [Escopo da Atividade](#escopo-da-atividade-%EF%B8%8F) 
-- [Desafio da Atividade](#desafio-da-atividade-)
 - [No Microsoft Teams](#no-microsoft-teams--)
 - [Regras](#regras-)
 - [Feedback](#feedback-)
@@ -21,19 +19,29 @@
 - <b>Atenção!</b> Escolhe apenas <b>UMA</b> das pastas para realizar a atividade! 
 
 ## Escopo da Atividade 🛠️
-Implementar uma classe que seja capaz de simular todos operadores possíveis no Java: 
+Implemente um sistema simples de gestão de Produtos com base no seguinte cenário:
 
-- ![carbon (2)](https://user-images.githubusercontent.com/98854868/235467971-e985fc57-f677-4dfb-885e-989ae0260d27.png)
-- ![carbon (3)](https://user-images.githubusercontent.com/98854868/235469107-f795243b-0eb4-4a4e-b22a-d18d63fa0a72.png)
-
-
-
-## Desafio da Atividade 🎯  
-
-- Desenvolva mais métodos para incluir os <b> operadores de atribuição </b>
-- Desenvolva mais métodos para incluir os <b> operadores lógico </b>
-- Desenvolva mais métodos para incluir os <b> operadores comparação </b>
-
+- Crie uma classe chamada Produto com os seguintes atributos privados:
+    - String nome
+    - double preco
+    - int quantidadeEstoque
+- Implemente:
+    - a) Construtores
+        -   Construtor padrão (sem parâmetros).
+        -   Construtor com 2 parâmetros (nome, preco).
+        -   Construtor com 3 parâmetros (nome, preco, quantidadeEstoque).
+    -   b) Métodos de acesso (getters e setters) para todos os atributos.
+        -   No setPreco, não permita valores negativos.
+        -   No setQuantidadeEstoque, não permita valores abaixo de 0.
+    -   c) Métodos adicionais:
+        -   adicionarEstoque(int qtd) → soma a quantidade informada ao estoque.
+        -   removerEstoque(int qtd) → reduz a quantidade (validar para não ficar negativa).
+        -   calcularValorTotal() → retorna o valor total em estoque (preco * quantidadeEstoque).
+    -  Crie uma classe Main que:
+        - Instancie 3 objetos Produto utilizando diferentes construtores.
+        - Utilize os métodos get/set para alterar atributos.
+        - Aplique operadores aritméticos e lógicos (ex.: verificar se o estoque é suficiente antes de remover).
+        - Exiba as informações dos produtos no console.
 
 ## No Microsoft Teams  👥
 
