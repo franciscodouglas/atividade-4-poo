@@ -14,9 +14,6 @@
 - Na sua máquina tem que ter instalado o <a href="https://www.oracle.com/br/java/technologies/downloads/" target="_blank">Java Development Kit (JDK) </a> 
 - É necessário que instale a <a href="https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack" target="_blank">Extension Pack for Java</a>
 
-
-- <b>Atenção!</b> Escolhe apenas <b>UMA</b> das pastas para realizar a atividade! 
-
 ## Escopo da Atividade 🛠️
 Implemente um sistema simples de gestão de Produtos com base no seguinte cenário:
 
